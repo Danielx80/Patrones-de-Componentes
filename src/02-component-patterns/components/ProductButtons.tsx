@@ -3,8 +3,8 @@ import { useContext, CSSProperties } from 'react';
 import { ProductContext } from './ProductCard';
 
 export interface Props {
-	className?: string
-	style?: CSSProperties
+	className?: string;
+	style?: CSSProperties;
 }
 
 export const ProductButtons = ({ className, style }: Props) => {
