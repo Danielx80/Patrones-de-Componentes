@@ -1,6 +1,5 @@
 import { BrowserRouter, NavLink, Routes, Route, Navigate } from 'react-router-dom';
 import logo from '../assets/react.svg'
-import { ShoppingPage } from '../02-component-patterns/pages/ShoppingPage';
 
 export const Navigation = () => {
 	return (
@@ -24,7 +23,7 @@ export const Navigation = () => {
 				<Routes>
 					<Route path="/about" element={<h1>About</h1>} />
 					<Route path="/users" element={<h1>Users</h1>} />
-					<Route path="/" element={<ShoppingPage />} />
+					{/* <Route path="/" element={<ShoppingPage />} /> */}
 				</Routes>
 			</div>
 		</BrowserRouter>
